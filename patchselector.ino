@@ -25,7 +25,7 @@ void loop()
 
 	if (PORTB != lastread)
 	{
-		PORTB |= lastread;
+		PORTB = lastread;
 
 	}
 }
